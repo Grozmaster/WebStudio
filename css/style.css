@@ -52,7 +52,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 1.25vw;
     background-color:gold;
 }
 
@@ -69,15 +69,14 @@ body {
 
 .header__inner {
     display:flex;
-    flex-basis: 1170;
     align-items: center;
     flex-wrap: nowrap;
     height: 80px;
 }
 
 .logo-link {
-    margin-right: 43px;
-
+    width: 12.0833vw;
+   
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -91,12 +90,15 @@ body {
 
     color: #000000;
 }
-
+.menu{
+    width: 24.5vw;
+    margin-left: 7.75vw;
+}
 .menu__list {
     display: flex;
 }
-.menu__list-item {
-    margin-left: 50px;
+.menu__list-item + .menu__list-item {
+    margin-left: 4.1666vw;
 }
 
 
@@ -108,11 +110,10 @@ body {
 
 .header__contacts{
     display: flex;
+    margin-left: 27.5833vw;
 }
-.header__mail {
-    margin-left: 324px;
-}
+
 .header__phone {
     white-space: pre;
-    margin-left: 50px;
+    margin-left: 4.1666vw;
 }
