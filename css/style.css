@@ -68,7 +68,7 @@ body {
 
 .header__inner {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     height: 80px;
 }
@@ -94,7 +94,7 @@ body {
 }
 
 .header_menu {
-    margin-left: auto;
+    margin-left: 93px;
 }
 
 .menu__list {
