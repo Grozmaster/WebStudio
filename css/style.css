@@ -68,6 +68,7 @@ body {
 
 .header__inner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     height: 80px;
 }
@@ -93,7 +94,7 @@ body {
 }
 
 .header_menu {
-    margin-left: 6.643em;
+    margin-left: auto;
 }
 
 .menu__list {
@@ -101,15 +102,14 @@ body {
 }
 
 .menu__list-item:not(:last-child) {
-    margin-right: 3.572em;
+    margin-right: 50px;
 }
 
 .header__contacts {
-    display: flex;
-    margin-left: 23.64em;
+    margin-left: auto;
 }
 
 .header__phone {
     white-space: nowrap;
-    margin-left: 3.572em;
+    margin-left: 50px;
 }
