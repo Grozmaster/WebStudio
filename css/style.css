@@ -94,7 +94,7 @@ body {
 }
 
 .header_menu {
-    margin-left: 93px;
+    margin-left: 7.75vw;
 }
 
 .menu__list {
@@ -102,7 +102,7 @@ body {
 }
 
 .menu__list-item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 4.1666vw;
 }
 
 .header__contacts {
@@ -111,5 +111,5 @@ body {
 
 .header__phone {
     white-space: nowrap;
-    margin-left: 50px;
+    margin-left: 4.1666vw;
 }
