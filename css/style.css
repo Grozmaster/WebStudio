@@ -42,7 +42,7 @@ body {
 
 .main {
     flex: 1 0 auto;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .footer {
@@ -53,7 +53,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .header {
@@ -116,6 +116,14 @@ body {
     margin-left: 4.1666vw;
 }
 
+.line {
+    background-image: linear-gradient(to right, transparent, rgba(47, 48, 58, 0.4), transparent);
+    border: 0;
+    height: 1px;
+   
+    }
+   
+
 
 
 @media (max-width:768px) {
@@ -124,16 +132,13 @@ body {
     .header__contacts {
 
         flex-direction: column;
-    
+
     }
 
     .header__phone {
-        margin-left:0;
+        margin-left: 0;
         margin-top: 10px;
     }
 }
 
-@media (max-width:430px) {
-   
-   
-}
+@media (max-width:430px) {}
