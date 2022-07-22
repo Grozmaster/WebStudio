@@ -9,6 +9,17 @@ html {
     box-sizing: inherit;
 }
 
+@media (max-width:768px) {
+    .header__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__contacts {
+        margin-right: auto;
+    }
+}
+
 a {
     padding: 0;
     color: inherit;
