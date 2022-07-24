@@ -202,10 +202,16 @@ body {
         margin-top: 10px;
     }
 
-    .top__banner { 
+    .top__banner {
         height: 400px;
         background-image: url("../images/top-banner-tablet.png");
-       
+
+    }
+
+    .top__banner-text {
+        margin-top: 118px;
+        font-size: 26px;
+        line-height: 42px;
     }
 }
 
