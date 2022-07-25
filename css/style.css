@@ -252,7 +252,7 @@ body {
     }
 }
 
-@media (max-width:620px) {
+@media (max-width:480px) {
 
 
     .header_menu {
@@ -269,6 +269,10 @@ body {
         min-height: 400px;
         background-image: url("../images/top-banner-mobile.png");
 
+    }
+
+    .benifits__blocks-1,.benifits__blocks-2 {
+        flex-direction: column;
     }
 }
 
