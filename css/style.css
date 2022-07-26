@@ -187,10 +187,8 @@ body {
 
 /* Benifits */
 .benifits {
-    padding: 0 10px;
+    margin: 94px 10px 0 10px;
     display: flex;
-    
-    margin-top: 94px;
     gap: 30px;
     justify-content: center;
     align-items: center;
