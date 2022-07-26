@@ -187,47 +187,66 @@ body {
 }
 
 /* Benifits */
-.benifits{
-     display: flex;
+.benifits {
+    display: flex;
     /* border: 3px solid green; */
     margin-top: 94px;
     gap: 30px;
     justify-content: center;
 }
 
-.benifits__blocks-left{
+.benifits__blocks-left {
 
     display: flex;
-    gap :30px;
+    gap: 30px;
     width: 50%;
- 
+
 }
 
 .benifits__blocks-right {
 
     display: flex;
-    gap :30px;
+    gap: 30px;
     width: 50%;
- 
+
 }
 
-.img__box{
+.img__box {
     width: 270px;
     height: 120px;
-   background: #F5F4FA;
-border-radius: 4px;
+    background: #F5F4FA;
+    border-radius: 4px;
 
-display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.benifits__title {
+    margin: 30px 0 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+
+}
+
+.benifits__text {
+    margin: 0;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 
 @media (max-width:768px) {
-    .header_menu {
-
-    }
-
     .header__contacts {
 
         flex-direction: column;
@@ -247,25 +266,30 @@ display: flex;
 
     .top__banner-text {
         margin-top: 118px;
+        
 
         font-size: 26px;
         line-height: 42px;
     }
 
-    .benifits__blocks-left,.benifits__blocks-right {
-       flex-direction: column;
-       justify-content: center;
-         width: 354px;
+    .benifits__blocks-left,
+    .benifits__blocks-right {
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 354px;
     }
 
     .img__box {
-       
-       width: auto;
+
+        width: 100%;
     }
 
-    
+    .benifits {
+        margin-top: 60px;
+    }
 
-    
+
+
 
 }
 
@@ -287,8 +311,9 @@ display: flex;
         background-image: url("../images/top-banner-mobile.png");
 
     }
-  
-    .benifits__blocks-left,.benifits__blocks-right { 
+
+    .benifits__blocks-left,
+    .benifits__blocks-right {
         width: 450px;
     }
 
@@ -296,6 +321,15 @@ display: flex;
         flex-wrap: wrap;
     }
 
+    .benifits__title {
+        text-align: center;
+    }
+
+    .benifits__text {
+        height: 50px;
+    }
+
+  
 }
 
 @media (max-width:378px) {
