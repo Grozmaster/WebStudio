@@ -271,7 +271,7 @@ body {
 }
 
 /* Skills */
-.skills{
+.skills {
     margin-bottom: 94px;
 }
 
@@ -289,9 +289,36 @@ body {
 
 .skills__box {
     display: flex;
-    gap:2.5vw;
+    gap: 2.5641vw;
+
 }
 
+.skills__item {
+    line-height: 0;
+    position: relative;
+}
+
+.skills__overlay--title {
+    margin: 27px 0 ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.skills__overlay {
+
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    z-index: 1;
+    background-color: rgba(47, 48, 58, 0.8);
+
+}
 
 
 @media (max-width:950px) {
@@ -334,7 +361,7 @@ body {
         margin-top: 60px;
     }
 
-    .skills{
+    .skills {
         display: none;
     }
 
