@@ -289,7 +289,7 @@ body {
 
 .skills__box {
     display: flex;
-    gap: 2.5641vw;
+    gap: 30px;
 
 }
 
