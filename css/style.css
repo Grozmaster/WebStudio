@@ -299,11 +299,11 @@ body {
 }
 
 .skills__overlay--title {
-    margin: 27px 0 ;
+    margin: 27px 0;
     text-align: center;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -314,12 +314,62 @@ body {
 
     width: 100%;
     position: absolute;
-    bottom:0px;
+    bottom: 0px;
     z-index: 1;
     background-color: rgba(47, 48, 58, 0.8);
 
 }
 
+/* Our team */
+.ourteam {
+    background: #F5F4FA;
+}
+
+.ourteam__title {
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.ourteam__box {
+    display: flex;
+    gap: 30px;
+    line-height: 0;
+    margin-bottom: 94px;
+}
+
+.ourteam__item {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam__name {
+    margin: 30px 0 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.ourteam__profession {
+    margin: 0 0 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 @media (max-width:950px) {
     .header__contacts {
