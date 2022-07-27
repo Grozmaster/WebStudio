@@ -323,6 +323,8 @@ body {
 /* Our team */
 .ourteam {
     background: #F5F4FA;
+    margin: 0 auto;
+    max-width: 1600px;
 }
 
 .ourteam__title {
