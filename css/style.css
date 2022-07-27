@@ -118,6 +118,7 @@ body {
     color: #757575;
     margin-left: auto;
     gap: 4.1666vw;
+    align-items: center;
 
 }
 
@@ -130,10 +131,12 @@ body {
 .header__contacts--mail,
 .header__contacts--phone {
     display: flex;
+    align-items: center;
 }
 
-.mail-icon:hover,
-.phone-icon:hover,.mobile__menu--img:hover {
+.header__contacts--mail:hover,
+.header__contacts--phone:hover,
+.mobile__menu:hover {
     filter: invert(50%) sepia(18%) saturate(2507%) hue-rotate(168deg) brightness(99%) contrast(97%);
 }
 
@@ -267,6 +270,29 @@ body {
     color: #757575;
 }
 
+/* Skills */
+.skills{
+    margin-bottom: 94px;
+}
+
+.skills__title {
+    margin: 0 auto;
+    padding-top: 94px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.skills__box {
+    display: flex;
+    gap:2.5vw;
+}
+
+
 
 @media (max-width:950px) {
     .header__contacts {
@@ -306,6 +332,10 @@ body {
 
     .benifits {
         margin-top: 60px;
+    }
+
+    .skills{
+        display: none;
     }
 
 
