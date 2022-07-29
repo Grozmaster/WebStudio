@@ -341,10 +341,14 @@ body {
 }
 
 .ourteam__box {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns:repeat(4, minmax(100px, 270px));
+    column-gap:2.564%;
     line-height: 0;
     margin-bottom: 94px;
+    justify-content: center;
+   
+    
 }
 
 .ourteam__item {
@@ -439,7 +443,10 @@ body {
         display: none;
     }
 
-
+    .ourteam__box {
+        grid-template-columns:repeat(2, minmax(200px, 354px));
+    gap:30px;
+    }
 
 
 }
@@ -505,6 +512,11 @@ body {
 
     .benifits__text {
         height: 50px;
+    }
+
+    .ourteam__box {
+        grid-template-columns:repeat(1, minmax(200px, 450px));
+    gap:30px;
     }
 
 
