@@ -396,7 +396,19 @@ body {
    
 }
 
+.icon {
+    display: inline-block;
+    width: 44px;
+    height:44px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
 
+  #icon__instagram .ellipse__icon:hover {
+   fill: #2196F3;
+  }
+  
 
 
 @media (max-width:950px) {
