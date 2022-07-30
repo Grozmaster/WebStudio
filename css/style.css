@@ -405,6 +405,7 @@ body {
 .customers__box {
     padding-bottom: 94px;
 }
+
 .customers__title {
     margin: 0;
     padding: 94px 0 50px;
@@ -414,27 +415,35 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    white-space: nowrap;
 }
 
 .customers__items {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 170px));
     gap: 30px;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .customer__icon {
-    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 92px;
     padding: 15px 31px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
 }
 
 .icon__inner {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 106px;
     height: 60px;
 }
@@ -493,7 +502,14 @@ body {
         gap: 30px;
     }
 
+    .customers__items {
+        grid-template-columns: repeat(3, minmax(150px, 226px));
 
+    }
+
+    .customer__icon {
+        padding: 15px 59px;
+    }
 }
 
 @media (max-width:660px) {
@@ -562,8 +578,36 @@ body {
     .ourteam__box {
         grid-template-columns: repeat(1, minmax(200px, 450px));
         gap: 30px;
+        padding-bottom: 60px;
     }
 
+    
+.ourteam__title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+    .customers__items {
+        grid-template-columns: repeat(2, minmax(100px, 210px));
+
+    }
+
+    .customer__icon {
+        padding: 15px 51px;
+    }
+
+    .customers__box {
+        padding-bottom: 60px;
+    }
+
+    .customers__title {
+        padding: 60px 0 30px;
+        font-size: 28px;
+        line-height: 33px;
+
+    }
 
 }
 
