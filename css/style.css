@@ -343,7 +343,7 @@ body {
 .ourteam__box {
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 270px));
-    column-gap: 2.564%;
+    gap: 30px;
     line-height: 0;
     padding-bottom: 94px;
     justify-content: center;
@@ -502,6 +502,13 @@ body {
         gap: 30px;
     }
 
+    .ourteam__title {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
     .customers__items {
         grid-template-columns: repeat(3, minmax(150px, 226px));
 
@@ -581,13 +588,13 @@ body {
         padding-bottom: 60px;
     }
 
-    
-.ourteam__title {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    font-size: 28px;
-    line-height: 33px;
-}
+
+    .ourteam__title {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        font-size: 28px;
+        line-height: 33px;
+    }
 
     .customers__items {
         grid-template-columns: repeat(2, minmax(100px, 210px));
