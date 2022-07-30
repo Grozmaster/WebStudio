@@ -154,15 +154,11 @@ body {
 
 .top__banner {
     margin: 0 auto;
-    /* max-width: 1600px; */
     min-height: 600px;
-
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
-
-    /* outline: 2px solid green; */
 }
 
 .banner__inner {
@@ -172,7 +168,6 @@ body {
     gap: 30px;
     align-items: center;
 }
-
 
 .top__banner-text {
     /* padding: 0 10px; */
@@ -188,16 +183,12 @@ body {
 }
 
 .order__btn {
-
-
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
-
     background: #2196F3;
     border: 0;
     padding: 10px 32px;
@@ -237,11 +228,9 @@ body {
 
 
 .img__box {
-
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,15 +238,12 @@ body {
 
 .benifits__title {
     margin: 30px 0 10px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
-
 }
 
 .benifits__text {
@@ -290,7 +276,6 @@ body {
 .skills__box {
     display: flex;
     gap: 30px;
-
 }
 
 .skills__item {
@@ -311,20 +296,17 @@ body {
 }
 
 .skills__overlay {
-
     width: 100%;
     position: absolute;
     bottom: 0px;
     z-index: 1;
     background-color: rgba(47, 48, 58, 0.8);
-
 }
 
 /* Our team */
 .ourteam {
     background: #F5F4FA;
     margin: 0 auto;
-    /* max-width: 1600px; */
 }
 
 .ourteam__title {
@@ -382,9 +364,6 @@ body {
     display: flex;
     gap: 10px;
     justify-content: center;
-
-
-
 }
 
 .icon__box {
@@ -450,27 +429,25 @@ body {
 
 .icon__inner :hover {
     --color1: #2196F3;
+    
 }
-
+.customer__icon:hover {
+    border-color:#2196F3;
+}
 
 @media (max-width:950px) {
     .header__contacts {
-
         flex-direction: column;
         gap: 10px;
-
     }
 
     .top__banner {
         min-height: 400px;
         background-image: url("../images/top-banner-tablet.png");
-
     }
 
     .top__banner-text {
         margin-top: 118px;
-
-
         font-size: 26px;
         line-height: 42px;
     }
@@ -479,15 +456,12 @@ body {
     .benifits__blocks-right {
         flex-direction: column;
         width: 354px;
-
     }
 
     .benifits__info-left,
     .benifits__info-right {
-
         width: auto;
     }
-
 
     .benifits {
         margin-top: 60px;
@@ -511,7 +485,6 @@ body {
 
     .customers__items {
         grid-template-columns: repeat(3, minmax(150px, 226px));
-
     }
 
     .customer__icon {
@@ -613,7 +586,6 @@ body {
         padding: 60px 0 30px;
         font-size: 28px;
         line-height: 33px;
-
     }
 
 }
