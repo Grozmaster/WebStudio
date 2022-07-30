@@ -345,7 +345,7 @@ body {
     grid-template-columns: repeat(4, minmax(100px, 270px));
     column-gap: 2.564%;
     line-height: 0;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     justify-content: center;
 
 
@@ -401,6 +401,47 @@ body {
     --color2: #FFFFFF;
 }
 
+/* Regular customers */
+.customers__box {
+    padding-bottom: 94px;
+}
+.customers__title {
+    margin: 0;
+    padding: 94px 0 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.customers__items {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer__icon {
+    width: 170px;
+    height: 92px;
+    padding: 15px 31px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.icon__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 60px;
+}
+
+.icon__inner :hover {
+    --color1: #2196F3;
+}
 
 
 @media (max-width:950px) {
