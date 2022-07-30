@@ -427,12 +427,9 @@ body {
     height: 60px;
 }
 
-.icon__inner :hover {
-    --color1: #2196F3;
-    
-}
 .customer__icon:hover {
-    border-color:#2196F3;
+    border-color: #2196F3;
+    --color1: #2196F3;
 }
 
 @media (max-width:950px) {
