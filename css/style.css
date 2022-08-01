@@ -105,26 +105,26 @@ body {
 }
 
 .header_menu {
-    margin-left: 7.75vw;
+    margin-left: 7.9487%;
 }
 
 .menu__list {
     display: flex;
-    gap: 4.1666vw;
+    gap: 17%;
 }
 
 .header__contacts {
     display: flex;
     color: #757575;
     margin-left: auto;
-    gap: 4.1666vw;
+    gap: 30px;
     align-items: center;
 
 }
 
 .header__phone,
 .header__mail {
-    /* white-space: nowrap; */
+    white-space: nowrap;
     margin-left: 10px;
 }
 
@@ -436,6 +436,7 @@ body {
 
 .footer {
     background-color: #2F303A;
+   
     /* height: 252px; */
 
 }
@@ -446,7 +447,7 @@ body {
 }
 
 .footer__contacts {
-    margin-right: 4.375vw;
+    margin-right: 5.8333%;
     width: 232px;
 }
 
@@ -499,7 +500,7 @@ body {
 }
 
 .footer__social {
-    margin-right: 5.8125vw;
+    margin-right: 7.75%;
     padding-top: 12px;
 }
 
@@ -545,6 +546,7 @@ body {
 .subscribe__input {
     padding: 14px 16px 14px 16px;
     width: 22.375vw;
+    max-width: 358px;
 
     font-weight: 400;
     font-size: 16px;
