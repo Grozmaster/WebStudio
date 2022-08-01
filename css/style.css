@@ -498,12 +498,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* 
-.footer__address,
-.footer__mail {
-    
-} */
-
 .footer__social {
     margin-right: 5.8125vw;
     padding-top: 12px;
@@ -549,8 +543,8 @@ body {
 }
 
 .subscribe__input {
-    padding: 15px 16px 15px 16px;
-    width:22.375vw;
+    padding: 14px 16px 14px 16px;
+    width: 22.375vw;
 
     font-weight: 400;
     font-size: 16px;
@@ -655,9 +649,11 @@ body {
     .customer__icon {
         padding: 15px 59px;
     }
-    .customers__title{
+
+    .customers__title {
         padding-top: 60px;
     }
+
     .customers__box {
         padding-bottom: 60px;
     }
@@ -675,19 +671,22 @@ body {
     .footer__contacts {
         margin-right: 21.4844vw;
     }
-    .footer__subscribe{
+
+    .footer__subscribe {
         padding: 0;
         margin-top: 60px;
     }
+
     .subscribe__box {
         flex-direction: column;
-        align-items:center ;
+        align-items: center;
     }
+
     .subscribe__input {
         width: 58.59375vw;
     }
 
-    .footer__social{
+    .footer__social {
         margin-right: 0;
     }
 }
@@ -710,7 +709,7 @@ body {
         justify-content: space-between;
     }
 
-    .footer__contacts{
+    .footer__contacts {
         margin-right: 6vw;
     }
 }
@@ -795,27 +794,33 @@ body {
     .footer__inner {
         flex-direction: column;
         align-items: center;
-        
+        padding: 55px 15px;
+
     }
 
     .footer {
         height: 603px;
     }
 
-    .footer__contacts{
+    .footer__contacts {
         margin-right: 0;
     }
 
-    .footer__social{
+    .footer__social {
         padding-top: 60px;
     }
 
-    .subscribe__input{
+    .subscribe__input {
         width: 93.75vw;
     }
-    
+
     .subscribe__box {
-        gap:20px;
+        gap: 20px;
+    }
+
+    .footer__logo-link {
+        font-size: 24px;
+        line-height: 28px;
     }
 
 }
