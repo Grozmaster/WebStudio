@@ -450,12 +450,20 @@ body {
     width: 232px;
 }
 
-.footer__contacts li{
+.footer__contacts li {
     margin-bottom: 9px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__contacts li:nth-child(1){
-margin-bottom: 20px;
+.footer__contacts li:nth-child(1) {
+    margin-bottom: 20px;
 }
 
 .footer__contacts li:last-child {
@@ -464,13 +472,12 @@ margin-bottom: 20px;
 
 
 .footer__logo-link {
-    font-family: 'Raleway';
+    Font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3; 
+    color: #2196F3;
 }
 
 .footer__logo-link span {
@@ -478,24 +485,7 @@ margin-bottom: 20px;
 }
 
 .footer__address-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
     color: #FFFFFF;
-
-   
-}
-
-.footer__mail-link{
-    margin-bottom: 9px;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer__phone-link{
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer__mail-link:hover,
@@ -507,6 +497,7 @@ margin-bottom: 20px;
 .footer__logo {
     margin-bottom: 20px;
 }
+
 /* 
 .footer__address,
 .footer__mail {
@@ -599,11 +590,11 @@ margin-bottom: 20px;
 
 .subscribe__submit::after {
     content: '';
-    background: url("/images/send.svg");
+    background: url("./images/send.svg");
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
-   
+
 
 }
 
