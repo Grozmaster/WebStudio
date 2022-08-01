@@ -281,21 +281,21 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__inner container">
-            <div class="footer__contacts">
-                <div class="footer__logo">
-                    <a class="footer__logo-link" href="./index.html">Web<span>Studio</span></a>
-                </div>
-                <div class="footer__address">
+            <ul class="footer__contacts">
+                <li><a class="footer__logo-link" href="./index.html">Web<span>Studio</span></a></li>
+                
+                <li>
                     <a class="footer__address-link" href="https://goo.gl/maps/ceR9nBu1ngvzuz5S7" target="_blank"
                         rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
-                </div>
-                <div class="footer__mail">
+                </li>
+                <li>
                     <a class="footer__mail-link" href="mailto:">info@devstudio.com</a>
-                </div>
-                <div class="footer__phone">
+                </li>
+                <li>
                     <a class="footer__phone-link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </div>
-            </div>
+                </li>
+
+            </ul>
             <div class="footer__social">
                 <div class="h4__social">присоединяйтесь</div>
                 <div class="footer__social-links">
@@ -316,10 +316,10 @@
 
             <div class="footer__subscribe">
                 <div class="h4__subscribe h4__social">Подпишитесь на рассылку</div>
-                <div class="subscribe__box">
+                <form class="subscribe__box" action="https://index.php" method="post">
                     <input class="subscribe__input" type="text" placeholder="E-mail">
                     <button class="subscribe__submit" type="submit">Подписаться</button>
-                </div>
+                </form>
             </div>
         </div>
     </footer>
