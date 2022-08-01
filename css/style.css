@@ -432,6 +432,151 @@ body {
     --color1: #2196F3;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #2F303A;
+    height: 252px;
+
+}
+
+.footer__inner {
+    padding: 60px 0;
+    display: flex;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+    width: 232px;
+}
+
+.footer__logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer__logo-link span {
+    color: #FFFFFF;
+}
+
+.footer__address {
+    color: #FFFFFF;
+}
+
+.footer__mail,
+.footer__phone {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__mail-link:hover,
+.footer__phone-link:hover,
+.footer__address-link:hover {
+    color: #2196F3;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__address,
+.footer__mail {
+    margin-bottom: 9px;
+}
+
+.footer__social {
+    margin-right: 93px;
+}
+
+.h4__social {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer__social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-icon {
+    width: 44px;
+    height: 44px;
+    --color1: #FFFFFF;
+    --color2: rgba(255, 255, 255, 0.1);
+
+}
+
+.footer__social-icon:hover {
+    --color1: #FFFFFF;
+    --color2: #2196F3;
+}
+
+.subscribe__box {
+    display: flex;
+    gap: 10px;
+
+}
+
+.subscribe__input {
+    padding: 15px 16px 15px 16px;
+    width: 358px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+    ;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.subscribe__submit {
+    padding: 10px 29px 10px 29px;
+    background: #2196F3;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.subscribe__submit::after {
+    content: '';
+    background: url("/images/send.svg");
+    background-size: 24px 24px;
+    height: 24px;
+    width: 24px;
+   
+
+}
+
 @media (max-width:950px) {
     .header__contacts {
         flex-direction: column;
