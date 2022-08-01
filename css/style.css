@@ -590,7 +590,7 @@ body {
 
 .subscribe__submit::after {
     content: '';
-    background: url("./images/send.svg");
+    background: url("../images/send.svg");
     background-size: 24px 24px;
     height: 24px;
     width: 24px;
