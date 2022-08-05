@@ -440,7 +440,7 @@ body {
 
 .footer {
     background-color: #2F303A;
-   
+
     /* height: 252px; */
 
 }
@@ -586,8 +586,8 @@ body {
     border-radius: 4px;
 }
 
-.subscribe__submit:hover{
-  background: #1c80d2;  
+.subscribe__submit:hover {
+    background: #1c80d2;
 }
 
 
@@ -829,6 +829,106 @@ body {
     .footer__logo-link {
         font-size: 24px;
         line-height: 28px;
+    }
+
+
+    .popup {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 5;
+        min-height: 796px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+    }
+
+    .active {
+        display: block;
+    }
+
+    .popup__inner {
+        padding: 48px 25px;
+
+
+    }
+
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        margin-bottom: 306px;
+    }
+
+    .menu__list-item {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: 0.02em;
+
+        color: #212121;
+    }
+
+    .popup__contacts-phone {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: #757575;
+
+        margin-bottom: 32px;
+
+    }
+
+    .popup__contacts-mail {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #757575;
+
+        margin-bottom: 64px;
+    }
+
+    .popup__social-list {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+    }
+
+    .item__line {
+        margin: 0;
+        height: 22px;
+        width: 1px;
+        border: 0px;
+        background-color: rgba(33, 33, 33, 0.2);
+
+    }
+
+    .close__popup {
+        font-size: 24px;
+        color: #212121;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .close__popup:hover {
+        color: #2196F3;
     }
 
 }

@@ -47,6 +47,7 @@
                     <img class="mobile__menu--img" src=".//images/menu.svg" alt="mobile__menu">
                 </div>
             </div>
+
         </div>
     </header>
 
@@ -281,6 +282,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__inner container">
+
             <ul class="footer__contacts">
                 <li>
                     <a class="footer__logo-link" href="./index.html">Web<span>Studio</span></a>
@@ -324,7 +326,62 @@
             </div>
         </div>
     </footer>
+    <!-- Popup -->
+    <div class="popup container">
+        <div class="popup__inner">
+            <a class="close__popup">X</a>
+            <ul class="menu__list">
+                <li class="menu__list-item"><a href="#">Студия</a></li>
+                <li class="menu__list-item"><a href="#">Портфолио</a></li>
+                <li class="menu__list-item"><a href="#">Контакты</a></li>
+            </ul>
+
+            <div class="popup__contacts">
+                <div class="popup__contacts-phone">
+                    <a class="popup__phone" href="tel:+380961111111">+38 096 111 11 11</a>
+                </div>
+                <div class="popup__contacts-mail">
+                    <a class="popup__mail" href="mailto:">info@devstudio.com</a>
+                </div>
+            </div>
+
+            <div class="popup__social">
+                <ul class="popup__social-list">
+                    <li class="popup__social-item">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </li>
+                    <li>
+                        <hr class="item__line">
+                    </li>
+                    <li class="popup__social-item">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    </li>
+                    <li>
+                        <hr class="item__line">
+                    </li>
+                    <li class="popup__social-item">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    </li>
+                    <li>
+                        <hr class="item__line">
+                    </li>
+                    <li class="popup__social-item">
+                        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $('.mobile__menu').on('click',function(){
+        $('.popup').addClass('active');
+    });
+    $('.close__popup').on('click',function(){
+        $('.popup').removeClass('active');
+    });
+</script>
 
 </html>
