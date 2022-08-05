@@ -708,6 +708,7 @@ body {
     letter-spacing: 0.01em;
     color: #000;
     outline: none;
+    resize: none;
 
 }
 
