@@ -626,6 +626,10 @@ body {
     right: 8px;
 }
 
+.order__popup-close:hover path{
+       fill:  #2196F3;
+}
+
 .order__popup_inner {
     padding: 40px;
     background: #FFFFFF;
