@@ -836,21 +836,21 @@ body {
 
 
     .popup {
-
         width: 100%;
         height: 100%;
         position: absolute;
         top: 0;
         z-index: 5;
-        background: #FFFFFF;
+        background: #FFFFFF ;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
     }
 
     .active {
-        display: block;
+        display: block; 
     }
 
     .popup__inner {
+        
         padding: 48px 0px;
         height: 100%;
         display: flex;
