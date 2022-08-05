@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 
 <body>
@@ -326,6 +327,41 @@
             </div>
         </div>
     </footer>
+    <!-- Order popup -->
+    <div class="order__popup">
+        <svg class="order__popup-close" width="30" height="30" viewBox="0 0 30 30" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="15" cy="15" r="15" fill="white" />
+            <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1" />
+            <path
+                d="M21 10.1079L19.8921 9L15.5 13.3921L11.1079 9L10 10.1079L14.3921 14.5L10 18.8921L11.1079 20L15.5 15.6079L19.8921 20L21 18.8921L16.6079 14.5L21 10.1079Z"
+                fill="black" />
+        </svg>
+
+        <div class="order__popup_inner">
+            <div class="order__popup-title">Оставьте свои данные, мы вам перезвоним</div>
+            <form action="" method="get">
+                <span class="order__input-text">Имя</span>
+                <input class="order__input name" type="text">
+
+                <span class="order__input-text">Телефон</span>
+                <input class="order__input phone" type="text">
+
+                <span class="order__input-text">Почта</span>
+                <input class="order__input email" type="text">
+
+                <span class="order__input-text">Комментарий</span>
+                <textarea name="inpur__area" id="order__area" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                
+                <input type="checkbox" name="order_check" id="order__checkbox">
+                <label for="order__checkbox">Соглашаюсь с рассылкой и принимаю <a class="terms" href="#" target="_blank" rel="noopener noreferrer">Условия договора</a></label>
+            
+                <button class="order__submit" type="submit">Отправить</button>
+            </form>
+        </div>
+
+    </div>
+
     <!-- Popup -->
     <div class="popup container">
         <div class="popup__inner">
@@ -354,25 +390,25 @@
                 <div class="popup__social">
                     <ul class="popup__social-list">
                         <li class="popup__social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
                         </li>
                         <li>
                             <hr class="item__line">
                         </li>
                         <li class="popup__social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
                         <li>
                             <hr class="item__line">
                         </li>
                         <li class="popup__social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
                         </li>
                         <li>
                             <hr class="item__line">
                         </li>
                         <li class="popup__social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
