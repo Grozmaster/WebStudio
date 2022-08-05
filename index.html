@@ -329,7 +329,13 @@
     <!-- Popup -->
     <div class="popup container">
         <div class="popup__inner">
-            <a class="close__popup">X</a>
+            <svg class="close__popup" width="19" height="19" viewBox="0 0 19 19" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M18.6667 1.88L16.7867 0L9.33333 7.45334L1.88 0L0 1.88L7.45334 9.33333L0 16.7867L1.88 18.6667L9.33333 11.2133L16.7867 18.6667L18.6667 16.7867L11.2133 9.33333L18.6667 1.88Z"
+                    fill="#212121" />
+            </svg>
+
             <ul class="menu__list">
                 <li class="menu__list-item"><a href="#">Студия</a></li>
                 <li class="menu__list-item"><a href="#">Портфолио</a></li>
@@ -376,10 +382,10 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>
-    $('.mobile__menu').on('click',function(){
+    $('.mobile__menu').on('click', function () {
         $('.popup').addClass('active');
     });
-    $('.close__popup').on('click',function(){
+    $('.close__popup').on('click', function () {
         $('.popup').removeClass('active');
     });
 </script>
