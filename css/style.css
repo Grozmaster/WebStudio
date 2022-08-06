@@ -615,9 +615,9 @@ body {
     z-index: 5;
     width: 528px;
     position: absolute;
-    top: 221px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
 }
 
 .order__popup-close {

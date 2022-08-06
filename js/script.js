@@ -20,3 +20,4 @@ $('.order__popup-close').on('click', function () {
     $('.order__popup').slideUp('active');
 });
 
+
