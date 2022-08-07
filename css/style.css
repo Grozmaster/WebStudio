@@ -973,7 +973,7 @@ body {
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 0;
+        top: 60px;
         z-index: 5;
         background: #FFFFFF;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.16);
@@ -982,7 +982,7 @@ body {
 
     .popup__inner {
 
-        padding: 48px 0;
+        padding: 20px 0;
         height: 100%;
         display: flex;
         flex-direction: column;
