@@ -35,6 +35,10 @@ window.addEventListener('click', e => { //последний клик по эк�
         modal.classList.remove('active')
     }
 
+    if (!target.closest('.popup') && !target.closest('.mobile__menu') ) { //закрыть окно при клике за пределами окна
+        modalMenu.classList.remove('active')
+    }
+
 });
 
 
