@@ -19,11 +19,27 @@
 
 const openBtn = document.querySelector(".order__btn");
 const closeBtn = document.querySelector(".order__popup-close");
-const modalWindow = document.querySelector(".order__popup");
+const modal = document.querySelector(".order__popup");
 
-function toogleModal() {
-    modalWindow.classList.toggle("active");
+openBtn.addEventListener('click',toggleModal);
+closeBtn.addEventListener('click',toggleModal);
+
+function toggleModal(){
+    modal.classList.toggle("active");
 }
 
-openBtn.addEventListener("click", toogleModal);
-closeBtn.addEventListener("click", toogleModal);
+window.addEventListener('click', e => {
+    const target = e.target
+
+    console.log(modal.className)
+
+    if (!target.closest('.order__popup') && !target.closest('.order__btn') ) {
+        modal.classList.remove('active')
+    }
+    console.log(modal.className)
+
+});
+
+
+
+

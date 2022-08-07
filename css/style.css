@@ -28,7 +28,7 @@ ul {
 
 body {
     height: 100%;
-    font-family: 'Roboto';
+    font-family: 'Roboto',serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -67,7 +67,7 @@ body {
 }
 
 .header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -83,7 +83,7 @@ body {
 }
 
 .logo-link {
-    font-family: 'Raleway';
+    font-family: 'Raleway', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -190,7 +190,7 @@ body {
     background: #2196F3;
     border: 0;
     padding: 10px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -198,8 +198,8 @@ body {
     background: #1c80d2;
 }
 
-/* Benifits */
-.benifits {
+/* Benefits */
+.Benefits {
     margin: 94px 10px 0 10px;
     display: flex;
     gap: 30px;
@@ -207,7 +207,7 @@ body {
     align-items: center;
 }
 
-.benifits__blocks-left {
+.Benefits__blocks-left {
 
     display: flex;
     gap: 30px;
@@ -215,7 +215,7 @@ body {
 
 }
 
-.benifits__blocks-right {
+.Benefits__blocks-right {
 
     display: flex;
     gap: 30px;
@@ -223,8 +223,8 @@ body {
 
 }
 
-.benifits__info-left,
-.benifits__info-right {
+.Benefits__info-left,
+.Benefits__info-right {
     width: 270px;
 }
 
@@ -238,7 +238,7 @@ body {
     align-items: center;
 }
 
-.benifits__title {
+.Benefits__title {
     margin: 30px 0 10px;
     font-weight: 700;
     font-size: 14px;
@@ -248,7 +248,7 @@ body {
     color: #212121;
 }
 
-.benifits__text {
+.Benefits__text {
     margin: 0;
     height: 75px;
     font-weight: 400;
@@ -264,9 +264,8 @@ body {
 }
 
 .skills__title {
-    margin: 0 auto;
     padding-top: 94px;
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -300,7 +299,7 @@ body {
 .skills__overlay {
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     z-index: 1;
     background-color: rgba(47, 48, 58, 0.8);
 }
@@ -319,7 +318,6 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -337,8 +335,8 @@ body {
 
 .ourteam__item {
     background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
 }
 
 .ourteam__name {
@@ -456,7 +454,7 @@ body {
 .footer__contacts li {
     margin-bottom: 9px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -475,7 +473,7 @@ body {
 
 
 .footer__logo-link {
-    Font-family: 'Raleway';
+    Font-family: 'Raleway', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -579,7 +577,7 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     border: 0;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -626,7 +624,7 @@ body {
 .order__popup_inner {
     padding: 40px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 
@@ -636,7 +634,6 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -663,9 +660,8 @@ body {
 }
 
 .name {
-    background: url(../images/name.svg) no-repeat center left;
     background-size: 18px;
-    background-position: 13px center;
+    background: url(../images/name.svg) no-repeat 13px center;
 }
 
 .phone {
@@ -692,7 +688,7 @@ body {
     margin-bottom: 20px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -732,7 +728,7 @@ body {
     color: #FFFFFF;
     border: none;
     background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -761,18 +757,18 @@ body {
         line-height: 42px;
     }
 
-    .benifits__blocks-left,
-    .benifits__blocks-right {
+    .Benefits__blocks-left,
+    .Benefits__blocks-right {
         flex-direction: column;
         width: 354px;
     }
 
-    .benifits__info-left,
-    .benifits__info-right {
+    .Benefits__info-left,
+    .Benefits__info-right {
         width: auto;
     }
 
-    .benifits {
+    .Benefits {
         margin-top: 60px;
     }
 
@@ -885,27 +881,27 @@ body {
 
     }
 
-    .benifits__blocks-left,
-    .benifits__blocks-right {
+    .Benefits__blocks-left,
+    .Benefits__blocks-right {
         width: 450px;
     }
 
-    .benifits__info-left,
-    .benifits__info-right {
+    .Benefits__info-left,
+    .Benefits__info-right {
 
         width: auto;
     }
 
-    .benifits {
+    .Benefits {
         flex-wrap: wrap;
 
     }
 
-    .benifits__title {
+    .Benefits__title {
         text-align: center;
     }
 
-    .benifits__text {
+    .Benefits__text {
         height: 50px;
     }
 
@@ -981,13 +977,13 @@ body {
         top: 0;
         z-index: 5;
         background: #FFFFFF;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.16);
     }
 
 
     .popup__inner {
 
-        padding: 48px 0px;
+        padding: 48px 0;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1012,7 +1008,7 @@ body {
     }
 
     .popup__contacts-phone {
-        font-family: 'Roboto';
+        font-family: 'Roboto', serif;
         font-style: normal;
         font-weight: 500;
         font-size: 34px;
@@ -1025,7 +1021,7 @@ body {
     }
 
     .popup__contacts-mail {
-        font-family: 'Roboto';
+        font-family: 'Roboto', serif;
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
@@ -1041,7 +1037,7 @@ body {
         align-items: center;
         gap: 10px;
 
-        font-family: 'Roboto';
+        font-family: 'Roboto', serif;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -1054,7 +1050,7 @@ body {
         margin: 0;
         height: 22px;
         width: 1px;
-        border: 0px;
+        border: 0;
         background-color: rgba(33, 33, 33, 0.2);
 
     }
