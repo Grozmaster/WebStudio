@@ -625,7 +625,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 
-
 }
 
 .order__popup-close {
@@ -758,6 +757,8 @@ body {
 
 .active {
     display: block;
+
+
 }
 
 @media (max-width: 950px) {

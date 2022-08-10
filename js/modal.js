@@ -26,7 +26,6 @@ closeBtn.addEventListener('click',toggleModal);
 
 function toggleModal(){                          //функция для изменения класса окна,добавляет или удаляет второй класс 'active'
     modal.classList.toggle("active");
-
 }
 
 window.addEventListener('click', e => { //последний клик по экрану браузера

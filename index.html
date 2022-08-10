@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     
 </head>
@@ -343,13 +344,13 @@
             <div class="order__popup-title">Оставьте свои данные, мы вам перезвоним</div>
             <form action="" method="get">
                 <span class="order__input-text">Имя</span>
-                <input class="order__input name" type="text">
+                <input class="order__input name" type="text" required>
 
                 <span class="order__input-text">Телефон</span>
-                <input class="order__input phone" type="text">
+                <input class="order__input phone" type="text" required>
 
                 <span class="order__input-text">Почта</span>
-                <input class="order__input email" type="text">
+                <input class="order__input email" type="text" required>
 
                 <span class="order__input-text">Комментарий</span>
                 <textarea name="inpur__area" id="order__area" cols="30" rows="10" placeholder="Введите текст"></textarea>
