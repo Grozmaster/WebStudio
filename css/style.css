@@ -1086,6 +1086,11 @@ body {
         justify-content:left;
     }
 
+   .order__popup {
+    width: 450px;
+
+   }
+
 }
 
 
@@ -1192,6 +1197,12 @@ body {
         font-size: 24px;
         line-height: 28px;
     }
+
+    .order__popup {
+        width: 400px;
+    
+       }
+
                      /*Portfolio.css*/
     .projects {
         grid-template-columns:repeat(1,minmax(300px ,450px));
@@ -1220,5 +1231,10 @@ body {
         gap: 5px;
         flex-wrap: wrap;
     }
+
+    .order__popup {
+        width: 320px;
+    
+       }
 
 }
