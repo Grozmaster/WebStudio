@@ -818,16 +818,17 @@ body {
 }
 
 .projects__cards:hover .projects__cards-hover {
-    z-index: 0;
+    display: block;
 }
 
 .projects__cards-hover {
+    display: none;
     padding: 63px 24px;
     margin: 0;
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
     top: 0;
-    z-index: -1;
+    z-index: 2;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
