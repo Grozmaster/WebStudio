@@ -769,7 +769,8 @@ body {
 
 .portfolio__menu-list {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:center;
     gap: 8px;
 }
 
@@ -795,7 +796,8 @@ body {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(250px ,370px));
     grid-gap: 30px;
     margin-bottom: 94px;
 }
@@ -809,12 +811,12 @@ body {
 .projects__cards {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    position: relative;
+
 }
 
 .projects__cards-img {
     display: block;
-
+    position: relative;
 }
 
 .projects__cards:hover .projects__cards-hover {
@@ -823,15 +825,17 @@ body {
 
 .projects__cards-hover {
     display: none;
-    padding: 63px 24px;
+    padding: 25px 24px;
     margin: 0;
+    height: 100%;
     background-color: rgba(33, 150, 243, 0.9);
     position: absolute;
     top: 0;
     z-index: 2;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 22px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 
@@ -951,6 +955,18 @@ body {
     .footer__social {
         margin-right: 0;
     }
+                                /*Portfolio.css*/
+.portfolio__menu {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+    .projects {
+
+        grid-template-columns:  repeat(2,minmax(200px ,354px));
+        margin-bottom: 60px;
+    }
+
+
 }
 
 @media (max-width: 660px) {
@@ -1062,6 +1078,13 @@ body {
     .close__popup:hover path {
         fill: #2196F3;
     }
+
+                      /*    Portfolio.css*/
+
+    .portfolio__menu-list {
+        justify-content:left;
+    }
+
 }
 
 
@@ -1168,7 +1191,15 @@ body {
         font-size: 24px;
         line-height: 28px;
     }
+                     /*Portfolio.css*/
+    .projects {
+        grid-template-columns:repeat(1,minmax(300px ,450px));
+        margin-bottom: 60px;
+    }
 
+    .projects__cards-img {
+        width: 100%;
+    }
 
 }
 
